@@ -29,3 +29,29 @@ body {
 a {
   text-decoration: none;
 }
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 25px;
+
+  img{
+  height: 50px;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    a{
+      color: #2b2b2b;
+      font-weight: 600;
+    }
+  }
+
+  box-shadow: 2px 2px 20px black;
+}
